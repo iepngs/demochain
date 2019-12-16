@@ -6,7 +6,9 @@ import (
 )
 
 func main(){
+	// 以command方式运行
 	cmd.Do()
+	// 以http方式运行
 	rpc.Do()
 }
 
